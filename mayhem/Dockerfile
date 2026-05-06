@@ -1,4 +1,4 @@
-FROM golang:1.23 as builder
+FROM golang:1.25 AS builder
 
 COPY . /go-mysql-orm
 WORKDIR /go-mysql-orm/mayhem
